@@ -23,123 +23,124 @@ body {
   src: url(./Components/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
 }
 
-
 @media screen and (max-width: 940px) {
-  .rarity {
-    & > .rarity__user {
-      padding-right: 0;
-      justify-content: space-evenly;
+  .App {
+    & > .rarity {
+      & > .rarity__user {
+        padding-right: 0;
+        justify-content: space-evenly;
+      }
     }
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+  .App {
+    & > .header {
+      padding-left: 10px;
+      padding-right: 10px;
 
-    justify-content: space-evenly !important;
-  }
-
-  .top{
-
-    background-position: bottom !important;
-    &>.top__text{
-      margin-top: 10px;
-      padding-top: 30px !important;
-
-      &>h1{
-        font-size: 30px !important;
-      }
-
-      &>p{
-        margin-top: 15px !important;
-      }
-    }
-  }
-
-  .collection{
-    padding-bottom: 50px !important;
-    &>h2{
-      font-size: 30px !important;
-      margin-bottom: 15px !important;
-    }
-  }
-
-  .rarity{
-    padding-top: 50px !important;
-
-  .rarity__header{
-    padding-bottom: 20px !important;
-    &>h2{
-      font-size: 30px !important;
-    }
-  }
-  }
-
-  .roadmap{
-    padding-top: 70px !important;
-    padding-bottom: 70px !important;
-    &>h2{
-      font-size: 30px !important;
+      justify-content: space-evenly;
     }
 
-    &>.roadmap__block{
-      &>.roadmap__block__text{
-        max-width: 400px;
-        padding-left: 50px !important;
+    & > .top {
+      background-position: bottom;
+      & > .top__text {
+        margin-top: 10px;
+        padding-top: 30px;
 
-        &>h3{
-          font-size: 12px !important;
-        }
-        &>h2{
-          font-size: 25px !important;
-          margin-bottom: 10px !important;
+        & > h1 {
+          font-size: 30px;
         }
 
-        &>p{
-          font-size: 12px !important;
+        & > p {
+          margin-top: 15px;
         }
       }
     }
-  }
 
-  .team{
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
-
-    &>h2{
-      font-size: 30px !important;
-    }
-  }
-
-  .faq{
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
-
-    &>h2{
-      font-size: 25px !important;
-    }
-
-    &>.faq__question{
-      &>p{
-        font-size: 15px;
+    & > .collection {
+      padding-bottom: 50px;
+      & > h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
       }
     }
-  }
 
-  .footer {
-    & > div {
-      &>.footer__head{
-        &>h2{
-          font-size: 30px !important;
-          margin-bottom: 0 !important;
+    & > .rarity {
+      padding-top: 50px;
 
+      .rarity__header {
+        padding-bottom: 20px;
+        & > h2 {
+          font-size: 30px;
         }
       }
-      & > .footer__links {
-        & > .ul1 {
-          flex-direction: column;
+    }
+
+    & > .roadmap {
+      padding-top: 70px;
+      padding-bottom: 70px;
+      & > h2 {
+        font-size: 30px;
+      }
+
+      & > .roadmap__block {
+        & > .roadmap__block__text {
+          max-width: 400px;
+          padding-left: 50px;
+
+          & > h3 {
+            font-size: 12px;
+          }
+          & > h2 {
+            font-size: 25px;
+            margin-bottom: 10px;
+          }
+
+          & > p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    & > .team {
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+      & > h2 {
+        font-size: 30px;
+      }
+    }
+
+    & > .faq {
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+      & > h2 {
+        font-size: 25px;
+      }
+
+      & > .faq__question {
+        & > p {
+          font-size: 15px;
+        }
+      }
+    }
+
+    & > .footer {
+      & > div {
+        & > .footer__head {
+          & > h2 {
+            font-size: 30px;
+            margin-bottom: 0;
+          }
+        }
+        & > .footer__links {
+          & > .ul1 {
+            flex-direction: column;
+          }
         }
       }
     }
