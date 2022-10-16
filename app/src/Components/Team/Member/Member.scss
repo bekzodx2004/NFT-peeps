@@ -1,0 +1,31 @@
+.team__member {
+  img {
+    width: 95%;
+  }
+  margin: 24px;
+
+  & > h5 {
+    text-align: center;
+    margin-top: 24px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 90% */
+
+    color: #222222;
+  }
+  & > h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    /* identical to box height, or 90% */
+
+    color: #222222;
+    text-align: center;
+    margin-top: 6px;
+  }
+}

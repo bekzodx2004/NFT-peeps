@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    background-color: #FFFFFF;
+    overflow: hidden;
+  }
+  
+  
+  body{
+    background-color: #e5e5e5;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    src: url(./Components/fonts/Montserrat/Montserrat-Bold.ttf);
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    src: url(./Components/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+  }

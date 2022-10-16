@@ -1,0 +1,38 @@
+.faq {
+  padding-top: 212px;
+  padding-bottom: 219px;
+  background: 
+  url(../images/v4.png) no-repeat top center /100%,
+  url(../images/faq.png) no-repeat 0px 100px,
+  url(../images/v5.png) no-repeat bottom center /100%;
+  & > h5 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 140% */
+
+    text-align: center;
+
+    color: #222222;
+  }
+  & > h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 58px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #222222;
+    margin-top: 4px;
+    margin-bottom: 76px;
+  }
+
+  & > :nth-child(3) {
+    border-top: 1px solid rgba(64, 71, 86, 0.6);
+  }
+}

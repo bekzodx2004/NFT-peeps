@@ -1,0 +1,81 @@
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: url(../images/t.png) no-repeat center center / 100%  ;
+
+  & > .top__text {
+    max-width: 560px;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    padding-top: 105px;
+    padding-bottom: 275px;
+
+    & > h5 {
+        position: relative;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      /* identical to box height, or 140% */
+
+      color: #222222;
+
+      &>img{
+        position: absolute;
+        top: -10px;
+        left: 33%;
+      }
+    }
+    & > h1 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 97px;
+      line-height: 87px;
+      /* identical to box height, or 90% */
+
+      text-align: center;
+
+      color: #222222;
+    }
+
+    & > p {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      /* or 140% */
+
+      text-align: center;
+
+      color: #404756;
+      max-width: 430px;
+      margin: auto;
+      margin-top: 45px;
+    }
+
+    & > button {
+      width: 135px;
+      height: 45px;
+      border: none;
+      background: #f7859c;
+      border-radius: 12px;
+      margin-top: 30px;
+
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      /* identical to box height, or 140% */
+
+      color: #ffffff;
+    }
+  }
+
+}
