@@ -14,15 +14,17 @@
     padding-bottom: 275px;
 
     & > h5 {
+      width: 130px;
+      margin: auto;
         position: relative;
       font-family: "Open Sans";
       font-style: normal;
       font-weight: 700;
       font-size: 18px;
-      line-height: 25px;
       /* identical to box height, or 140% */
 
       color: #222222;
+      background: url(../images/crcl_yellow.png ) no-repeat 0px /18px;
 
       &>img{
         position: absolute;
@@ -35,7 +37,6 @@
       font-style: normal;
       font-weight: 700;
       font-size: 97px;
-      line-height: 87px;
       /* identical to box height, or 90% */
 
       text-align: center;
@@ -48,7 +49,6 @@
       font-style: normal;
       font-weight: 400;
       font-size: 18px;
-      line-height: 25px;
       /* or 140% */
 
       text-align: center;
@@ -71,7 +71,6 @@
       font-style: normal;
       font-weight: 700;
       font-size: 18px;
-      line-height: 25px;
       /* identical to box height, or 140% */
 
       color: #ffffff;

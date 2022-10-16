@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Top.scss";
 
-import Tosh from "../images/crcl_yellow.png";
 export default class Top extends Component {
   render() {
     return (
@@ -11,7 +10,7 @@ export default class Top extends Component {
         
         <div className="top__text">
           <h5>
-            <img src={Tosh} alt="" /> NFT Collection
+           NFT Collection
           </h5>
           <h1>Bored NFT Peeps</h1>
           <p>

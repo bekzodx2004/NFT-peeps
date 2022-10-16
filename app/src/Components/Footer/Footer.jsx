@@ -24,7 +24,7 @@ const Footer = () => {
             </li>
           </ul>
 
-          <div className="ul2">
+          <ul className="ul2">
             <li>
               <a href="https://">Home</a>
             </li>
@@ -37,7 +37,7 @@ const Footer = () => {
             <li>
               <a href="https://">Changelog</a>
             </li>
-          </div>
+          </ul>
         </div>
         <p>Powered by Webflow</p>
         <p>Made by Tim Poličar</p>

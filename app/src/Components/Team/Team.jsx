@@ -10,12 +10,11 @@ import Mot4 from "../images/mot4.png";
 import Mot5 from "../images/mot5.png";
 import Mot6 from "../images/mot6.png";
 
-import Red from '../images/crcl_red.png'
 
 const Team = () => {
   return (
     <div className="team">
-        <h5><img src={Red} alt="" /> Team</h5>
+        <h5>Team</h5>
         <h2>Meet Our Team</h2>
       <div>
         <Member img={Mot1} h5={"CEO"} h3={"Jennifer"} />

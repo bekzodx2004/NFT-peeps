@@ -9,6 +9,7 @@
     display: flex;
 
     flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
     & > li {
       margin: 15px;
@@ -18,7 +19,6 @@
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
-        line-height: 25px;
         /* or 140% */
 
         color: #222222;
@@ -34,7 +34,6 @@
       font-style: normal;
       font-weight: 700;
       font-size: 18px;
-      line-height: 25px;
       /* identical to box height, or 140% */
 
       color: #ffffff;

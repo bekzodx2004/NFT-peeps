@@ -13,21 +13,23 @@
     padding-bottom: 78px;
 
     & > h5 {
+      padding-left: 10px;
+      width: 100px;
       font-family: "Open Sans";
       font-style: normal;
       font-weight: 700;
       font-size: 18px;
-      line-height: 25px;
       /* identical to box height, or 140% */
 
       color: #222222;
+    background: url(../images/crcl_orange.png) no-repeat 0px / 20px;
+
     }
     & > h2 {
       font-family: "Montserrat";
       font-style: normal;
       font-weight: 700;
       font-size: 65px;
-      line-height: 58px;
       /* identical to box height, or 90% */
 
       color: #222222;

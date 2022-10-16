@@ -1,26 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
-*{
-    margin: 0;
-    padding: 0;
+.App {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(./Components/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(./Components/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
+
+
+@media screen and (max-width: 940px) {
+  .rarity {
+    & > .rarity__user {
+      padding-right: 0;
+      justify-content: space-evenly;
+    }
   }
-  
-  .App {
-    max-width: 1440px;
-    width: 100%;
-    margin: auto;
-    background-color: #FFFFFF;
-    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+
+    justify-content: space-evenly !important;
   }
-  
-  
-  body{
-    background-color: #e5e5e5;
+
+  .top{
+
+    background-position: bottom !important;
+    &>.top__text{
+      margin-top: 10px;
+      padding-top: 30px !important;
+
+      &>h1{
+        font-size: 30px !important;
+      }
+
+      &>p{
+        margin-top: 15px !important;
+      }
+    }
   }
-  @font-face {
-    font-family: 'Montserrat';
-    src: url(./Components/fonts/Montserrat/Montserrat-Bold.ttf);
+
+  .collection{
+    padding-bottom: 50px !important;
+    &>h2{
+      font-size: 30px !important;
+      margin-bottom: 15px !important;
+    }
   }
-  @font-face {
-    font-family: 'Open Sans';
-    src: url(./Components/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+
+  .rarity{
+    padding-top: 50px !important;
+
+  .rarity__header{
+    padding-bottom: 20px !important;
+    &>h2{
+      font-size: 30px !important;
+    }
   }
+  }
+
+  .roadmap{
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+    &>h2{
+      font-size: 30px !important;
+    }
+
+    &>.roadmap__block{
+      &>.roadmap__block__text{
+        max-width: 400px;
+        padding-left: 50px !important;
+
+        &>h3{
+          font-size: 12px !important;
+        }
+        &>h2{
+          font-size: 25px !important;
+          margin-bottom: 10px !important;
+        }
+
+        &>p{
+          font-size: 12px !important;
+        }
+      }
+    }
+  }
+
+  .team{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+
+    &>h2{
+      font-size: 30px !important;
+    }
+  }
+
+  .faq{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+
+    &>h2{
+      font-size: 25px !important;
+    }
+
+    &>.faq__question{
+      &>p{
+        font-size: 15px;
+      }
+    }
+  }
+
+  .footer {
+    & > div {
+      &>.footer__head{
+        &>h2{
+          font-size: 30px !important;
+          margin-bottom: 0 !important;
+
+        }
+      }
+      & > .footer__links {
+        & > .ul1 {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}

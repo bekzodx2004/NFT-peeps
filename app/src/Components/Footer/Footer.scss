@@ -18,20 +18,20 @@
         font-style: normal;
         font-weight: 700;
         font-size: 65px;
-        line-height: 58px;
         /* identical to box height, or 90% */
         margin-bottom: 10px;
         color: #222222;
       }
       & > h5 {
+        width: 90px;
         font-family: "Open Sans";
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
-        line-height: 25px;
         /* identical to box height, or 140% */
 
         color: #222222;
+        background: url(../images/ffq.png) no-repeat 0px / 18px;
       }
     }
     & > .footer__links {
@@ -44,33 +44,8 @@
       border-top: 1px solid rgba(64, 71, 86, 0.6);
       border-bottom: 1px solid rgba(64, 71, 86, 0.6);
 
-      & > .ul1 {
+      & > ul {
         display: flex;
-        flex-wrap: wrap;
-
-        & > li {
-          margin: 10px;
-          list-style: none;
-
-          margin-right: 42px;
-
-          & > a {
-            text-decoration: none;
-            font-family: "Open Sans";
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 25px;
-            /* identical to box height, or 140% */
-
-            color: #404756;
-          }
-        }
-      }
-
-      & > .ul2 {
-        display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
 
         & > li {
@@ -84,12 +59,26 @@
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
-            line-height: 25px;
             /* identical to box height, or 140% */
 
             color: #404756;
           }
         }
+
+        & > li:hover {
+          text-shadow: 0 0 10px #404756;
+        }
+      }
+
+      & > .ul1 {
+        & > li {
+          margin: 10px;
+          margin-right: 42px;
+        }
+      }
+
+      & > .ul2 {
+        flex-direction: column;
       }
     }
 
@@ -101,7 +90,6 @@
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
-      line-height: 25px;
       /* identical to box height, or 180% */
 
       color: #404756;
