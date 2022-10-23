@@ -1,0 +1,39 @@
+.rarity {
+  background-color: #fbf1e6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 140px;
+  padding-bottom: 108px;
+
+  & > .rarity__header {
+    max-width: 1210px;
+    width: 95%;
+    border-bottom: 1px solid rgba(64, 71, 86, 0.6);
+    padding-bottom: 78px;
+
+    & > h5 {
+      padding-left: 10px;
+      width: 100px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      /* identical to box height, or 140% */
+
+      color: #222222;
+    background: url(../images/crcl_orange.png) no-repeat 0px / 20px;
+
+    }
+    & > h2 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 65px;
+      /* identical to box height, or 90% */
+
+      color: #222222;
+      margin-top: 4px;
+    }
+  }
+}

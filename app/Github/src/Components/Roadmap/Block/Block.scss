@@ -1,0 +1,78 @@
+.roadmap__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 108px;
+  position: relative;
+  & > h3 {
+    display: flex;
+    align-items: center;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* identical to box height, or 90% */
+
+    color: #f7859c;
+
+    & > img {
+      
+      margin-right: 10px;
+    }
+  }
+
+  & > .roadmap__block__text {
+    position: relative;
+    max-width: 529px;
+    width: 95%;
+    padding-top: 121px;
+    padding-bottom: 146px;
+    padding-left: 5%;
+    box-sizing: border-box;
+    background: url(../../images/rbg.png) no-repeat center center / 100%;
+
+    & > h3 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      /* identical to box height, or 90% */
+
+      color: #222222;
+    }
+    & > h2 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      /* identical to box height, or 90% */
+
+      color: #222222;
+      margin-top: 9px;
+      margin-bottom: 23px;
+    }
+    & > p {
+      max-width: 336px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      /* or 140% */
+
+      color: #404756;
+    }
+
+    & > .rasm {
+      position: absolute;
+      top: 0;
+      right: -80px;
+    }
+  }
+
+  & > img {
+    max-width: 300px;
+    width: 100%;
+  }
+}

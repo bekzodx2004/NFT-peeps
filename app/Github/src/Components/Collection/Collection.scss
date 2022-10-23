@@ -1,0 +1,55 @@
+.collection {
+  padding-bottom: 239px;
+  background: url(../images/v1.png) no-repeat bottom center/ contain;
+  & > h5 {
+    width: 100px;
+    margin: auto;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    /* identical to box height, or 140% */
+
+    text-align: center;
+
+    color: #222222;
+
+    background: url(../images/crcl_yellow.png) no-repeat 0px / 18px;
+
+  }
+  & > h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #222222;
+    margin: 5px;
+    margin-bottom: 90px;
+  }
+
+  & > .collection__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    & > .collection__block__texts {
+      max-width: 374px;
+      width: 95%;
+      margin: 15px;
+
+      & > :nth-child(3) {
+        border: none ;
+      }
+    }
+
+    & > img {
+      max-width: 621px;
+      width: 90%;
+    }
+  }
+}

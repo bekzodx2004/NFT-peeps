@@ -1,0 +1,43 @@
+.roadmap {
+  padding-top: 260px;
+  padding-bottom: 205px;
+  background: url(../images/v2.png) no-repeat center top/ 100% , url(../images/v3.png) no-repeat center bottom/ 100%;;
+
+  & > h5 {
+    width: 100px;
+    margin: auto;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    /* identical to box height, or 140% */
+
+    text-align: center;
+
+    color: #222222;
+
+    background: url(../images/crcl_red.png) no-repeat 8px / 30px;
+
+  }
+  & > h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #222222;
+    margin-top: 5px;
+  }
+
+  &>:nth-child(6){
+    &>img{
+      transform: scale(1.7);
+    }
+  }
+
+ 
+
+}
